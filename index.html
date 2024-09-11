@@ -22,10 +22,10 @@
         require(["esri/config", "esri/Map", "esri/views/MapView"], function(esriConfig, Map, MapView) {
   
             esriConfig.apiKey = "AAPTxy8BH1VEsoebNVZXo8HurKt7b9h2VPau4lD4HVhmTxSbvIRxrlMTANX-vVIQazEIgwdDNSaxRMxCfn5_Hfg-FUZYZ3ywLEy_i3rkGL464AJYUm4m2PJj20-R-TT-rA5b0j_4fcZFGusLVTmwwdygbfrgzUqI08KqE-QLQCuLiliGnZiRidbSr8Cvm6Av3e8-cIxr2rpilf-PrbIutJcsNQRQjBwZZ8loI2LFfezjssA.AT1_qDkNLXyg"
-      const map = new Map({
-        basemap: "topo-3d", // change basemap here
-        apiKey: "YOUR_ACCESS_TOKEN"
-      });
+      
+            const map = new Map({
+              basemap: "topo-3d", // Change basemap here
+            });
 
         const view = new MapView({
           map: map,
